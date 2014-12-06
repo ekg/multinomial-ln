@@ -1,0 +1,38 @@
+{
+  "name": "multinomial-ln",
+  "version": "1.0.0",
+  "description": "log(multinomial coefficient)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekg/multinomial-ln.git"
+  },
+  "keywords": [
+    "multinomial",
+    "coefficient",
+    "log",
+    "distribution",
+    "statistics",
+    "log-space",
+    "natural log"
+  ],
+  "author": "Erik Garrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekg/multinomialln/issues"
+  },
+  "homepage": "https://github.com/ekg/multinomialln",
+  "dependencies": {
+    "array-sum": "^0.1.0",
+    "factorial-ln": "^1.0.0"
+  },
+  "devDependencies": {
+    "multinomial": "0.0.0",
+    "tap-spec": "^2.1.1",
+    "tape": "^3.0.3",
+    "range": "0.0.2"
+  }
+}
