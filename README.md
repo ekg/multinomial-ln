@@ -31,7 +31,7 @@ As the factorial function used to generate these log-multinomial coefficients is
 
 ## about
 
-Multinomial coefficients can quickly become huge, even for small counts and small numbers of terms. For example, the multinomial coefficient for `[ 6, 4, 5, 3, 3 ]` will overflow the [vanilla node multinomial coefficient library](https://www.npmjs.org/package/multinomial). Where exact results are not required (a big number library is not required to calculate these) they can be generated using log terms for the factorials that underly them. That is what this library implements. As such it is probably most-useful in projects focused on probabilities and statistics.
+Multinomial coefficients can quickly become huge, even for small counts and small numbers of terms. This makes the impossible to compute without a bit of cleverness. For example, the multinomial coefficient for `[ 6, 4, 5, 3, 3 ]` will overflow the [vanilla node multinomial coefficient library](https://www.npmjs.org/package/multinomial). Where exact results are not required (a big number library is not required to calculate these) they can be generated using log terms for the factorials that underly them. That is what this library implements. As such it is probably most-useful in projects focused on probabilities and statistics.
 
 ## license
 
