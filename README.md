@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/ekg/multinomial-ln.svg)](https://travis-ci.org/ekg/multinomial-ln)
 
-log(multinomial coefficient) computed in log space
+log(multinomial coefficient) from logs all the way down
 
 ## install
 
