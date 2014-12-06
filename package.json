@@ -1,6 +1,6 @@
 {
   "name": "multinomial-ln",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "log(multinomial coefficient)",
   "main": "index.js",
   "scripts": {
