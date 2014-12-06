@@ -1,6 +1,6 @@
 {
   "name": "multinomial-ln",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "log(multinomial coefficient)",
   "main": "index.js",
   "scripts": {
@@ -30,9 +30,10 @@
     "factorial-ln": "^1.0.0"
   },
   "devDependencies": {
+    "array-sample": "^0.1.0",
     "multinomial": "0.0.0",
+    "range": "0.0.2",
     "tap-spec": "^2.1.1",
-    "tape": "^3.0.3",
-    "range": "0.0.2"
+    "tape": "^3.0.3"
   }
 }
